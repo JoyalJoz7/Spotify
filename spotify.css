@@ -1,0 +1,145 @@
+body{
+    background-color:#121212;
+    margin:0;
+    color:#fff;
+    font-size:16px;
+    line-height:normal;
+}
+h2{
+    margin:0;
+}
+
+@font-face {
+    font-family: 'ui-bold';
+    src: url(fonts/MixUI-Bold.woff2);
+}
+@font-face {
+    font-family: 'ui-regular';
+    src: url(fonts/MixUI-Regular.woff2);
+}
+@font-face {
+    font-family: 'title-bold';
+    src: url(fonts/MixUITitle-Bold.woff2);
+}
+@font-face {
+    font-family: 'title-extrabold';
+    src: url(fonts/MixUITitle-Extrabold.woff2);
+}
+@font-face {
+    font-family: 'title-variable';
+    src: url(fonts/MixUITitleVariable.woff2);
+}
+
+.top-view-bar{
+    background-color:#000000;
+    gap: 16px;
+    height: 24px;
+    padding: 16px;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 2;
+    display:flex;
+    align-items:center;
+    -webkit-box-align: center;
+}
+.top-view-bar:before{
+    bottom: 0;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.spotify-logo{
+    display:flex;
+    align-items:center;
+    -webkit-box-align:center;
+}
+.spt-logo{
+    height:32px;
+    color:#fff;
+}
+.ckTExL{
+    fill:#fff;
+    stroke:transparent;
+}
+.blank-div{
+    flex:1;
+}
+.search-open-hamburg{
+    display:flex;
+}
+.top-bar-search{
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+    /* color:#fff; */
+}
+.dCAvla{
+    fill:#fff;
+    width:16px;
+    height:16px;
+}
+.button-sc-open{
+    box-sizing:border-box;
+    background-color:transparent;
+    border:0;
+    border-radius:9999px;
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    text-align:center;
+    align-self:center;
+    padding:0px;
+    /* font-size:0.8125rem; */
+    font-family:'title-bold'
+}
+.button-inner{
+    box-sizing:border-box;
+    position:relative;
+    background-color:#ffffff;
+    display:flex;
+    border-radius:9999px;
+    align-items:center;
+    justify-content:center;
+    padding-inline:16px;
+    padding-block:4px;
+    height:32px;
+}
+.top-bar-hamburg{
+    display:flex;
+    -webkit-box-align:center;
+    align-items:center;
+}
+.button-sc-ham{
+    background:none;
+    border:none;
+    color:#fff;
+    margin-inline-start:16px;
+    padding:0;
+    text-align:start;
+    display:flex;
+    align-items:center;
+}
+#preview-menu-button{
+    box-sizing:border-box;
+    border-radius:9999px;
+    cursor:pointer;
+    position:relative;
+    justify-content:center;
+}
+.iconwrapper{
+    display:flex;
+}
+.bneLcE{
+    fill:currentColor;
+    width:24px;
+    height:24px;
+}
+#main{
+    margin-top:56px;
+}
+
+
+
+
