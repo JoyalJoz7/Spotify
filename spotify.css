@@ -139,6 +139,61 @@ h2{
 #main{
     margin-top:56px;
 }
+.main-inner-contents{
+    padding-inline:16px;
+}
+.categoriesHead{
+    margin-bottom:12px;
+    margin-top:24px;
+    overflow:hidden;
+}
+.artists-head{
+    margin-top:80px;
+}
+
+.text-title-small{
+    font-size:1.25rem;
+    font-family:'title-variable';
+}
+.scrollON{
+    display:flex;
+    left:50%;
+    margin-left:-50vw;
+    margin-right:-50vw;
+    position:relative;
+    right:50%;
+    width:100vw;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    align-items:stretch;
+    overflow-x:scroll;
+    scrollbar-width:none;
+}
+.artist-card{
+    display:inline-flex;
+    flex-direction:column;
+    row-gap:8px;
+    position:relative;
+    border-radius:6px;
+    z-index:0;
+    padding-block:8px;
+    padding-inline:8px;
+    cursor:pointer;
+}
+.firstartistcard{
+    margin-inline-start:8px;
+}
+.kOChlU{
+    border-radius:4px;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    min-inline-size: 152px;
+    inline-size:100%;
+    
+}
+.namediv{
+    font-family:'ui-regular';
+}
 
 
 
