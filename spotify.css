@@ -92,7 +92,7 @@ h2{
     align-self:center;
     padding:0px;
     /* font-size:0.8125rem; */
-    font-family:'title-bold'
+    font-family:'title-bold';
 }
 .button-inner{
     box-sizing:border-box;
@@ -194,7 +194,79 @@ h2{
 .namediv{
     font-family:'ui-regular';
 }
-
+.footer-nav{
+    background-color:rgb(18,18,18);
+    padding:8px 16px 40px;
+    width:100%;
+    box-sizing:border-box;
+}
+.footer-topsection{
+    display:flex;
+    flex-direction:column;
+    margin-top:32px;
+}
+.foot-top-contents{
+    display:flex;
+    flex-flow: column wrap;
+}
+.foot-group{
+    margin-bottom:32px;
+}
+.footgroup-para{
+    color:rgb(255,255,255);
+    font-family:'ui-bold';
+    font-size:1rem;
+    margin:0;
+}
+.foot-group a{
+    text-decoration:none;
+    font-family:'ui-regular';
+    margin:8px 0px;
+    width:fit-content;
+    display:block;
+    color:#b3b3b3;
+}
+.foot-top-sociallogo{
+    margin-bottom:40px;
+}
+.social-links{
+    display:inline;
+    padding-right:12px;
+}
+.logolog{
+    padding-right:0px;
+}
+.social-logo{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(41,41,41);
+}
+.dCAvla{
+    width:16px;
+    height:16px;
+}
+.dYnaPI{
+    fill:#fff;
+    width:16px;
+    height:16px;
+}
+.horizon-line{
+    border-color:rgba(255, 255, 255, 0.1);
+    border:0px;
+    border-block-start: 1px solid #292929;
+    margin-bottom:20px;
+    margin-top:0px;
+}
+.footer-bottomlinks{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-between;
+    padding-top:16px;   
+}
 
 
 
